@@ -1,0 +1,13 @@
+# Keybindings for Alacritty
+# key: Keyboard key like "C", "P"
+# mods: Key modifiers like "Super", "Control", etc...
+# Example: "Control" + "Shift" + "C" makes a copy
+
+[keyboard]
+bindings = [
+  { key = "C", mods = "Control | Shift", action = "Copy" },
+  { key = "V", mods = "Control | Shift", action = "Paste" },
+  #
+  { key = "+", mods = "Control", action = "IncreaseFontSize" },
+  { key = "-", mods = "Control", action = "DecreaseFontSize" },
+]
