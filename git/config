@@ -5,6 +5,8 @@
 	br = branch
 	ci = commit
 	st = status
+	# https://www.coderwall.com/p/euwpig/a-better-git-log
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [init]
 	defaultBranch = main
 [pull]
