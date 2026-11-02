@@ -25,7 +25,7 @@ dynamic_padding = true
 decorations = "full"
 dimensions = { columns = 150, lines = 40 }
 padding = { x = 3, y = 3 }
-opacity = 0.75
+opacity = 0.85
 blur = true
 
 [scrolling]
